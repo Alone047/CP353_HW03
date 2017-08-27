@@ -1,0 +1,21 @@
+{
+  "name": "intro-to-es6",
+  "version": "1.0.0",
+  "description": "Introduction to ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alone047/intro-to-es6.git"
+  },
+  "author": "Kritshana Nirola",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.10.0"
+  }
+}
