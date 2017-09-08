@@ -4,7 +4,7 @@
   "description": "CP353_HW03",
   "main": "beer.js",
   "scripts": {
-    "transpile": "browserify js/beer.js -o build/main.bundle.js -t [babelify --presets es2015 ]",
+    "transpile": "browserify js/beer.js -o build/main.bundle.js -t [babelify --presets es2015 ]"
     "start": "http-server"
   },
   "repository": {

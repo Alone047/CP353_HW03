@@ -1,0 +1,48 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.searchA{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 37%;
+    border: 2px solid yellow;
+    border-radius: 10%;
+    display: inline-block;
+    padding: 30px;
+}
+.Head{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2%;
+    background-image: url("t1.jpg")
+}
+img{
+    width: 15%;
+}
+td{
+    padding: 15px;
+}
+th{
+    color: #000099;
+    background-color:  #99ff99;
+    opacity: 0.7;
+}
+tr:nth-child(even) {
+background: #80ffff;
+opacity:0.7;
+}
+tr:nth-child(odd) {
+background: #99ff66;
+opacity:0.7;
+}
+tr{
+    text-align: center;
+}
+button{
+background-color:#ccccb3 ;
+border-radius:40%;
+color:#0d0d26;
+}

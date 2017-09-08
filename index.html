@@ -1,2 +1,41 @@
-<script src='build/main.bundle.js'></script>
-Hello world
+<!DOCTYPE html>
+<html>
+    <head>
+        <style >
+            p {
+               font-size: 18px;
+               color :"";
+                }       
+        </style>
+        <title>Beer Searh</title>
+        <link rel="stylesheet" type="text/css" href="beer.css">
+        <script src="build/main.bundle.js"></script>
+    </head>
+    <body background="b1.jpg">
+        <div class="Head">
+                Searhing Beer!
+        </div>
+        <div class="searchA" text-align = "center">
+            
+            <div>
+                <p>Name  : 
+                <input type="text" id="Nsearh" placeholder="Ex.-Buzz,Trashy Blonde"> <br></p>
+            </div>
+            <div>
+                <p>Yeast : 
+                <input type="text" id="Ysearh" placeholder="Ex.-American Ale"> <br></p>
+            </div>
+            <div>
+                <p>Brewed after: 
+                <input type="text" id="Bsearh" placeholder="Ex.-11/2015"> <br></p>
+            </div>
+            <div class="" align="center ">
+                 <button id="Bn" class="" name="Bn" onclick="searhname(document.getElementById('Nsearh').value)">Searh Name</button>
+                 <button id="By" class="" name="By" onclick="searhyeast(document.getElementById('Ysearh').value)">Searh Yeast</button>
+                 <button id="Bf" class="" name="Bf" onclick="searhba(document.getElementById('Bsearh').value)">Searh First Brewed</button>
+            </div>
+        </div>
+        <div id="beerdata">
+        </div>
+    </body>
+</html>
